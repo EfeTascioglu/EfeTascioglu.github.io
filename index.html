@@ -385,7 +385,7 @@
       <div id="recent_project"></div>
         <script type="text/javascript">
           function grabproj() {
-            document.getElementById("projects").innerHTML += "<tr><td><input type='text'></td><td><input type='text'></td><td><button onclick='del(this)'>X</button></td></tr>";
+            document.getElementById("projects").innerHTML = document.getElementsByTagName("a")[0].innerHTML;
             }
 
             function del(field) {
