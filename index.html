@@ -85,7 +85,7 @@
       <li class="logo">
         <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
           class="brand-logo grey-blue-text">
-          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+          <img src="" class="circle img-responsive profile-pic" alt="avatar">
         </a>
       </li>
 
@@ -379,9 +379,27 @@
 
         <!-- Experience 2 -->
     </section>
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Recent Projects</h3>
+        <div id="recent_project"></div>
+        <script type="text/javascript">
+          function grabproj() {
+            document.getElementById("projects").innerHTML += "<tr><td><input type='text'></td><td><input type='text'></td><td><button onclick='del(this)'>X</button></td></tr>";
+            }
+
+            function del(field) {
+            field.parentNode.parentNode.outerHTML = "";
+            }
+        </script>
+        <a href="rec_proj" onload="grabproj(this)">add</a><br />
+      </div>
+    </section>
+
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+      <h3 class="page-title white-text teal">Full List of Projects</h3>
+      
+
       <div class="container">
         <div class="row">
 
