@@ -381,7 +381,8 @@
     </section>
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text teal">Recent Projects</h3>
-        <div id="recent_project"></div>
+      <a href="rec_proj" onload="grabproj(this)"></a>
+      <div id="recent_project"></div>
         <script type="text/javascript">
           function grabproj() {
             document.getElementById("projects").innerHTML += "<tr><td><input type='text'></td><td><input type='text'></td><td><button onclick='del(this)'>X</button></td></tr>";
@@ -391,7 +392,7 @@
             field.parentNode.parentNode.outerHTML = "";
             }
         </script>
-        <a href="rec_proj" onload="grabproj(this)">add</a><br />
+    
       </div>
     </section>
 
