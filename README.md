@@ -1,6 +1,6 @@
 # ECE444 Lab 1
 
-This repository is a for of:
+This repository is a fork of:
 > https://varadbhogayata.github.io
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
