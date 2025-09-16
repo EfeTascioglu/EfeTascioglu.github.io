@@ -348,7 +348,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #526fe0;
 }
 
 #intro.section .teal {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #2f5f8a !important;
+  background-color: #103453 !important;
 }
 
 /* .teal {
